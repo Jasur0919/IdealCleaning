@@ -105,12 +105,12 @@ const index = () => {
         deleteItem={deleteItem}
       />
       <div className="flex justify-center mt-4">
-      <GlobalPagination sx={{}}
-        // totalCount={totalCount}
-        page={params.page}
-        limit={params.limit}
-        setParams={changePage}
-      />
+      <GlobalPagination
+          // totalCount={totalCount}
+          page={params.page}
+          limit={params.limit}
+          setPage={changePage}
+        />
       </div>
     </div>
   );

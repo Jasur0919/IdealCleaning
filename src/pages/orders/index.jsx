@@ -14,7 +14,6 @@ const index = () => {
     page: 1,
     limit: 10,
   });
-
   const deleteItem = async (id) => {
     const response = await deleteOrder(id);
     if (response.status === 200) {

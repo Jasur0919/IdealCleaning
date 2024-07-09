@@ -15,6 +15,11 @@ const routes = [
         path: "/orders",
         content: "Order",
         icon: <LocalPostOfficeIcon/>
+    },
+    {
+        path: "/clients",
+        content: "Clients",
+        icon: <LocalPostOfficeIcon/>
     }
 ]
 

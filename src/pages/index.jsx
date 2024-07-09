@@ -4,4 +4,5 @@ import Main from './main'
 import Service from './services'
 import Order from './orders'
 import Home from './home'
-export { SignUp, SignIn, Main, Service, Home, Order }
+import Client from './clients'
+export { SignUp, SignIn, Main, Service, Home, Order, Client }
